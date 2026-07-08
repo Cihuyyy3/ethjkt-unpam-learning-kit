@@ -1,4 +1,4 @@
-# Log Tugas Hari-2: Perbaikan Bug Aplikasi Pasar Pagi
+﻿# Log Tugas Hari-2: Perbaikan Bug Aplikasi Pasar Pagi
 
 ## Identitas Program
 
@@ -6,7 +6,7 @@ Nama aplikasi: Pasar Pagi
 Jenis aplikasi: Aplikasi belanja buah-buahan langsung dari petani  
 File utama yang diperbaiki:
 
-- `main.js`
+- `keranjang.js`
 - `style.css`
 
 ## Ringkasan Pekerjaan
@@ -16,7 +16,7 @@ Pada tugas hari-2, dilakukan analisis dan perbaikan beberapa bug pada aplikasi b
 Setelah setiap bagian penting diperbaiki, program dicek kembali menggunakan pemeriksaan sintaks JavaScript dengan:
 
 ```bash
-node --check main.js
+node --check keranjang.js
 ```
 
 Program juga dibuka kembali melalui browser untuk memastikan hasil akhir dapat dicoba langsung.
@@ -159,7 +159,7 @@ Tombol minus tampil normal di browser.
 
 Pengujian yang dilakukan:
 
-- Mengecek sintaks JavaScript dengan `node --check main.js`.
+- Mengecek sintaks JavaScript dengan `node --check keranjang.js`.
 - Mencari ulang pola bug lama seperti `Math.random`, `data-price`, kupon lama, dan penggunaan `innerHTML` untuk catatan.
 - Membuka ulang aplikasi di browser.
 - Mengecek alur dasar: tambah barang, kurangi barang, ubah quantity, gunakan kupon, dan checkout.
